@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Scanner</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/siofu/client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <h1>OCR Scanner</h1>
+        <br>
+        <div class="files">
+            <button id="upload_btn">Choose image</button>
+            <br><br> or <br><br>  
+            <div id="file_drop" dropzone="copy" title="drop files for upload">Drop files here</div>
+        </div>
+        
+
+        <div id="upload_progress_bar_container">
+            
+            <div id="upload_progress_bar">Upload progress</div>
+        </div>
+
+        <div id="ocr_output"></div>
+
+    </div>
+    <script src="/uploader-clientside.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "preprocess",
+  "version": "1.0.0",
+  "description": "img preprocess and ocr with javascript and python",
+  "main": "preprocess-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zmq",
+    "node",
+    "python",
+    "ocr",
+    "tesseract"
+  ],
+  "author": "Fekete Bence",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.6",
+    "socket.io": "^2.3.0",
+    "socketio-file-upload": "^0.7.0",
+    "zeromq": "^6.0.0-beta.5"
+  }
+}

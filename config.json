@@ -1,0 +1,55 @@
+{
+    "step_by_step_imwrite": true,
+    "write_verbosity": false,
+    "preprocess_verbosity": false,
+    "ocr_verbosity": true,
+    "timing_verbosity": false,
+    "default_input_filename": "bon5.jpg",
+    "expressPort": "4630",
+    "zmqPort": "4620",
+    "path": {
+        "input_dir": "./input/",
+        "output_dir": "./output/"
+    },
+    "preprocess": {
+        "resize": {
+            "height": 1600
+        },
+        "gaussian_blur": {
+            "kernel_size": 5
+        },
+        "canny_edge": {
+            "lower": 127,
+            "upper": 255
+        },
+        "auto_canny_edge": {
+            "sigma": 0.33
+        },
+        "contour": {
+            "contour_find_mode": "cv.RETR_LIST",
+            "contour_find_method": "cv.CHAIN_APPROX_NONE",
+            "epsilon_coeff": 0.10,
+            "closed_contour": false,
+            "line_thickness": 3,
+            "conrour_color": {
+                "b": 255,
+                "g": 255,
+                "r": 20
+            }
+        },
+        "warp": {
+        },
+        "threshold": {
+            "blocksize": 7,
+            "method": "mean",
+            "offset": 10
+        }
+    },
+    "ocr": {
+        "ocr_engine_modes": "1",
+        "page_segmentation_method": "6",
+        "lang": "eng+ron",
+        "user-words": "./user-words",
+        "configfile": "./ocr_configfile"
+    }
+}
