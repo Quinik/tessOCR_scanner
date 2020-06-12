@@ -7,9 +7,9 @@ OCR Scanner webapp, using the Tesseract OCR engine.
 `$ npm install` <br>
 (libzmq is required, check https://github.com/zeromq/libzmq for details)
 
-2. Open a terminal window and start the NodeJS server.
+2. Open a terminal window and start the NodeJS server with `$ node server.js` 
 
-3. Open another terminal window and start the image preprocessing process.
+3. Open another terminal window and start the image preprocessing process with `$ python3 preprocess-server.py` 
 
 4. Navigate your browser to 
 http://localhost:4630/
