@@ -1,7 +1,7 @@
 # tessOCR_scanner
 OCR Scanner webapp, using the Tesseract OCR engine.
 
-1. Install requires packages and libraries. <br>
+1. Install required packages and libraries. <br>
 `$ pip install pytesseract` <br>
 `$ pip install pyzmq` <br>
 `$ npm install` <br>
