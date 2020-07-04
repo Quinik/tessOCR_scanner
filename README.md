@@ -1,5 +1,5 @@
-# tessOCR_scanner
-OCR Scanner webapp, using the Tesseract OCR engine.
+# TessOCR Scanner
+OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication with Socket.IO, server-background process communication with ZMQ.
 
 1. Install required packages and libraries. <br>
 `$ pip install pytesseract` <br>
