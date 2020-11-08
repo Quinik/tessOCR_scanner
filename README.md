@@ -1,5 +1,5 @@
 # TessOCR Scanner
-OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication with Socket.IO, server-background process communication with ZMQ.
+OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication with Socket.IO, connection between server and background process is established using with ZMQ.
 
 1. Install required packages and libraries. <br>
 `$ sudo apt install tesseract-ocr` <br>
@@ -10,7 +10,7 @@ OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication 
 `$ pip install pyzmq` <br>
 `$ pip install opencv-python` <br>
 `$ npm install` <br>
-(NodeJS and libzmq is required, check https://github.com/zeromq/libzmq for details)
+(NodeJS and libzmq is required, check https://github.com/zeromq/libzmq for details about ZMQ)
 
 2. Open a terminal window and start the NodeJS server with `$ node server.js` 
 
