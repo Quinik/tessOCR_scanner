@@ -2,6 +2,8 @@
 OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication with Socket.IO, server-background process communication with ZMQ.
 
 1. Install required packages and libraries. <br>
+`$ sudo apt install tesseract-ocr` <br>
+`$ sudo apt install libtesseract-dev` <br>
 `$ pip install pytesseract` <br>
 `$ pip install imutils` <br>
 `$ apt-get install libzmq3-dev` <br>
