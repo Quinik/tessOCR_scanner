@@ -3,9 +3,11 @@ OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication 
 
 1. Install required packages and libraries. <br>
 `$ pip install pytesseract` <br>
+`$ apt-get install libzmq3-dev` <br>
 `$ pip install pyzmq` <br>
+`$ pip install opencv-python` <br>
 `$ npm install` <br>
-(libzmq is required, check https://github.com/zeromq/libzmq for details)
+(NodeJS and libzmq is required, check https://github.com/zeromq/libzmq for details)
 
 2. Open a terminal window and start the NodeJS server with `$ node server.js` 
 
