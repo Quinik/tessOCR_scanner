@@ -3,6 +3,7 @@ OCR Scanner webapp, using the Tesseract OCR engine. Client-server communication 
 
 1. Install required packages and libraries. <br>
 `$ pip install pytesseract` <br>
+`$ pip install imutils` <br>
 `$ apt-get install libzmq3-dev` <br>
 `$ pip install pyzmq` <br>
 `$ pip install opencv-python` <br>
